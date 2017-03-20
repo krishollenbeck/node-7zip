@@ -1,0 +1,15 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "description": "NPM scripts examples",
+  "author": "Test",
+  "license": "MIT",
+  "scripts": {
+    "unzip": "node ./examples/unzip.js",
+    "zip" : "node ./examples/zip.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "node-7zip": "~0.0.2"
+  }
+}

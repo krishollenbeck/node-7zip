@@ -1,0 +1,18 @@
+{
+  "name": "node-7zip",
+  "version": "0.0.5",
+  "description": "NodeJs wrapper for 7zip stand alone. Uses NodeJs and 7zip to handle archiving files and directories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kris hollenbeck",
+  "license": "MIT",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/krishollenbeck/node-7zip.git"
+  },
+  "bugs" : {
+    "url": "https://github.com/krishollenbeck/node-7zip/issues"
+  }
+}

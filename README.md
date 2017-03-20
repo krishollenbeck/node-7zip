@@ -1,6 +1,43 @@
 # node-7zip
-NodeJs wrapper for 7zip stand alone. Uses NodeJs and 7zip to handle archiving files and directories.
 
+##### System Requirements:
+
+- Windows
+- NodeJs
+
+##### Description
+NodeJs wrapper for 7zip stand alone. Uses NodeJs and 7zip to handle archiving files and directories. 7zip standalone is bundle with node-7zip npm package.
+
+##### Examples
+
+Examples can be found under `examples` dir.
+
+###### Zip
+The following will zip a directory and all sub folders.
+```
+var node7zip = require('node-7zip');
+
+// input (folder to archive), output (archive location and name)
+node7zip.zip('./src', './test/output/myzip.zip');
+```
+
+From the root of this repo run the following command to test.
+`npm run zip`
+
+
+###### Unzip
+The following will unzip an archive.
+
+```
+var node7zip = require('node7zip');
+node7zip.unzip('./test/test.zip', './test/output/tmp');
+```
+
+From the root of this repo run the following command to test.
+`npm run unzip`
+
+
+##### License
 
 MIT License
 

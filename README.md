@@ -5,7 +5,7 @@
 ##### System Requirements:
 
 - Windows 7+
-- NodeJs
+- NodeJs 5+
 
 ##### Description
 NodeJs wrapper for 7zip stand alone. Uses NodeJs and 7zip to handle archiving files and directories. 7zip standalone is bundle with node-7zip npm package.

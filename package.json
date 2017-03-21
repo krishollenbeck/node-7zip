@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "unzip": "node ./examples/unzip.js",
-    "zip" : "node ./examples/zip.js"
+    "zip" : "node ./examples/zip.js",
+    "test" : "node ./test/test.js"
   },
   "private": true,
   "devDependencies": {

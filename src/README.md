@@ -1,9 +1,11 @@
 # node-7zip
 
+[![Build Status](https://travis-ci.org/krishollenbeck/node-7zip.svg?branch=master)](https://travis-ci.org/krishollenbeck/node-7zip)
+
 ##### System Requirements:
 
-- Windows
-- NodeJs
+- Windows 7+
+- NodeJs 5+
 
 ##### Description
 NodeJs wrapper for 7zip stand alone. Uses NodeJs and 7zip to handle archiving files and directories. 7zip standalone is bundle with node-7zip npm package.

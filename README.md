@@ -1,5 +1,7 @@
 # node-7zip
 
+[![Build Status](https://travis-ci.org/krishollenbeck/node-7zip.svg?branch=master)](https://travis-ci.org/krishollenbeck/node-7zip)
+
 ##### System Requirements:
 
 - Windows

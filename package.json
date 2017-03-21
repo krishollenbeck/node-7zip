@@ -6,11 +6,12 @@
   "license": "MIT",
   "scripts": {
     "unzip": "node ./examples/unzip.js",
-    "zip" : "node ./examples/zip.js",
-    "test" : "node ./test/test.js"
+    "zip": "node ./examples/zip.js",
+    "test": "node ./test/test.js"
   },
   "private": true,
   "devDependencies": {
+    "fs-extra": "^2.1.2",
     "node-7zip": "~0.0.2"
   }
 }

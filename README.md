@@ -4,7 +4,7 @@
 
 ##### System Requirements:
 
-- Windows
+- Windows 7+
 - NodeJs
 
 ##### Description

@@ -23,12 +23,22 @@ let methods = {
 
 let nodeZip = Object.create(methods);
 
-nodeZip.unzip = function (pathToArchive, target)
+nodeZip.unzip = function (pathToArchive, target, overwrite = false)
 {
   console.log('Unzipping from ' + pathToArchive + ' to ' + target);
 
   const process = new Promise((resolve, reject) => {
-    child_process(__dirname + '/bin/7za.exe', ['x', pathToArchive, '-o' + target, '-r'], (error, stdout, stderr) =>
+    var args = ['x', pathToArchive, '-o' + target, '-r'];
+    if (overwrite)
+    {
+      args.push('-aoa');
+    }
+    else
+    {
+      args.push('-aos');
+    }
+
+    child_process(__dirname + '/bin/7za.exe', args, (error, stdout, stderr) =>
     {
       if (error)
       {
